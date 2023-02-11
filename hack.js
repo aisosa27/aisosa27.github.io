@@ -4,9 +4,9 @@
   <title>Landing Page</title>
 </head>
 <body>
-    url: "https://aisosa27.github.io"
   <h1 id="completion-header">Completion</h1>
   <p id="completion-date">To be updated</p>
+  <p>URL: <a href="https://aisosa27.github.io">https://aisosa27.github.io</a></p>
   <script>
     const date = new Date();
     const completionHeader = document.querySelector("#completion-header");
@@ -17,3 +17,4 @@
   </script>
 </body>
 </html>
+
