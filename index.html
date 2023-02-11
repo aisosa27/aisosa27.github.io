@@ -1,9 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <style>
+    body {
+      background-color: #1c2331;
+      color: #ffffff;
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+    
+    h1 {
+      font-size: 36px;
+      margin-top: 50px;
+    }
+    
+    #completion-date {
+      font-size: 24px;
+      margin-top: 20px;
+    }
+    
+    #update-status {
+      font-size: 20px;
+      margin-top: 20px;
+    }
+    
+    a {
+      color: #00b0ff;
+    }
+    
+    .logo {
+      margin-top: 50px;
+      width: 50%;
+    }
+  </style>
   <title>Landing Page</title>
 </head>
 <body>
+  <img class="logo" src="https://via.placeholder.com/500x300.png?text=Hack-BYU-I" alt="Hack-BYU-I logo">
   <h1 id="completion-header">Hack-BYU-I</h1>
   <p id="completion-date">October 20 to 21</p>
   <p>URL: <a href="https://aisosa27.github.io">https://aisosa27.github.io</a></p>
@@ -14,7 +47,7 @@
     const updateStatus = document.querySelector("#update-status");
     
     completionHeader.innerHTML = "Hack-BYU-I";
-    completionDate.innerHTML = "Date: October 20 - 21 2023";
+    completionDate.innerHTML = "Date: October 20 to 21";
     updateStatus.innerHTML = "Update status: To be updated soon";
   </script>
 </body>
