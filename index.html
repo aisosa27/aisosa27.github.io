@@ -1,54 +1,114 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <style>
-    body {
-      background-color: #1c2331;
-      color: #ffffff;
-      text-align: center;
-      font-family: Arial, sans-serif;
-    }
-    
-    h1 {
-      font-size: 36px;
-      margin-top: 50px;
-    }
-    
-    #completion-date {
-      font-size: 24px;
-      margin-top: 20px;
-    }
-    
-    #update-status {
-      font-size: 20px;
-      margin-top: 20px;
-    }
-    
-    a {
-      color: #00b0ff;
-    }
-    
-    .logo {
-      margin-top: 50px;
-      width: 50%;
-    }
-  </style>
-  <title>Landing Page</title>
+	<title>HACK-BYU-I</title>
+	<style>
+		body {
+			background-color: #1E90FF;
+			color: #FFFFFF;
+			font-family: Arial, sans-serif;
+			text-align: center;
+		}
+
+		.container {
+			margin: 50px auto;
+			width: 80%;
+			text-align: left;
+		}
+
+		.header {
+			font-size: 36px;
+			margin-bottom: 50px;
+		}
+
+		.date {
+			font-size: 24px;
+			margin-bottom: 50px;
+		}
+
+		.update {
+			font-size: 18px;
+			margin-bottom: 50px;
+			color: #FFA07A;
+		}
+
+		.preregister {
+			background-color: #FFFFFF;
+			color: #000000;
+			font-size: 18px;
+			padding: 10px 20px;
+			border-radius: 5px;
+			text-decoration: none;
+			margin-top: 50px;
+			display: inline-block;
+		}
+
+		.faq {
+			font-size: 18px;
+			margin-top: 50px;
+			text-decoration: underline;
+			cursor: pointer;
+		}
+
+		.faq-content {
+			display: none;
+			background-color: #FFFFFF;
+			color: #000000;
+			padding: 20px;
+			border-radius: 5px;
+			margin-top: 20px;
+		}
+
+		.instagram {
+			background-color: #FFFFFF;
+			color: #000000;
+			font-size: 18px;
+			padding: 10px 20px;
+			border-radius: 5px;
+			text-decoration: none;
+			margin-top: 50px;
+			display: inline-block;
+		}
+	</style>
 </head>
 <body>
-  <img class="logo" src="https://via.placeholder.com/500x300.png?text=COMPUTING FOR THE COMMUNITY" alt="Hack-BYU-I Venue">
-  <h1 id="completion-header">Hack-BYU-I</h1>
-  <p id="completion-date">October 20 to 21</p>
-  <p>INSTAGRAM: <a href="https://www.instagram.com/hack_byui/?igshid=YmMyMTA2M2Y%3D">https://www.instagram.com/hack_byui/?igshid=YmMyMTA2M2Y%3Do</a></p>
-  <p id="update-status">To be updated soon</p>
-  <script>
-    const completionHeader = document.querySelector("#completion-header");
-    const completionDate = document.querySelector("#completion-date");
-    const updateStatus = document.querySelector("#update-status");
-    
-    completionHeader.innerHTML = "Hack-BYU-I";
-    completionDate.innerHTML = "Date: October 20 to 21";
-    updateStatus.innerHTML = "Update status: To be updated soon";
-  </script>
+	<div class="container">
+		<div class="header">
+			HACK-BYU-I
+		</div>
+		<div class="date">
+			October 20 to 21
+		</div>
+		<div class="update">
+			To be updated soon
+		</div>
+		<a class="preregister" href="mailto:hackbyui-csee-cit@webmailbyui.onmicrosoft.com">Pre-register for Email Notifications</a>
+		<a class="instagram" href="https://www.instagram.com/hack_byui/?igshid=YmMyMTA2M2Y%3D">Follow us on Instagram</a>
+<div class="faq">
+FAQ
+</div>
+<div class="faq-content">
+<p>Q: What is HACK-BYU-I?</p>
+<p>A: HACK-BYU-I is a hackathon competition hosted by BYU-Idaho.</p>
+<p>Q: When will HACK-BYU-I take place?</p>
+<p>A: HACK-BYU-I will take place on October 20 to 21.</p>
+<p>Q: How can I participate in HACK-BYU-I?</p>
+<p>A: You can pre-register for email notifications by sending an email to hackbyui-csee-cit@webmailbyui.onmicrosoft.com.</p>
+<p>Q: Where can I find more information about HACK-BYU-I?</p>
+<p>A: You can follow us on Instagram for updates and more information about HACK-BYU-I. The link is https://www.instagram.com/hack_byui/?igshid=YmMyMTA2M2Y%3D.</p>
+</div>
+</div>
+<script>
+const faq = document.querySelector('.faq');
+const faqContent = document.querySelector('.faq-content');
+faq.addEventListener('click', function() {
+faqContent.style.display = (faqContent.style.display === 'block') ? 'none' : 'block';
+});
+</script>
+
 </body>
 </html>
+
+
+
+
