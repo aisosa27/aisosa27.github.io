@@ -4,6 +4,7 @@
   <title>Landing Page</title>
 </head>
 <body>
+    url: "https://aisosa27.github.io"
   <h1 id="completion-header">Completion</h1>
   <p id="completion-date">To be updated</p>
   <script>
